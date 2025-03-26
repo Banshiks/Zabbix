@@ -15,16 +15,17 @@
 
 ![image](https://github.com/user-attachments/assets/deccf369-2be5-40b7-8167-bc999174dbf2)
 
-Команды : sudo apt update
-sudo dpkg -i zabbix-release_6.0-4+debian11_all.deb
-sudo apt update
-sudo apt install zabbix-server-pgsql zabbix-frontend-php php7.4-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
-sudo -u postgres createuser --pwprompt zabbix
-sudo -u postgres createdb -O zabbix zabbix
-zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
-nano /etc/zabbix/zabbix_server.conf параметр DBPassword=***
-sudo systemctl restart zabbix-server zabbix-agent apache2
-sudo systemctl enable zabbix-server zabbix-agent apache2
+Команды : 
+1.sudo apt update
+2.sudo dpkg -i zabbix-release_6.0-4+debian11_all.deb
+3.sudo apt update
+4.sudo apt install zabbix-server-pgsql zabbix-frontend-php php7.4-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+5.sudo -u postgres createuser --pwprompt zabbix
+6.sudo -u postgres createdb -O zabbix zabbix
+7.zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+8.nano /etc/zabbix/zabbix_server.conf параметр DBPassword=***
+9.sudo systemctl restart zabbix-server zabbix-agent apache2
+10.sudo systemctl enable zabbix-server zabbix-agent apache2
 
 
 Задание 2
@@ -53,11 +54,11 @@ sudo systemctl enable zabbix-server zabbix-agent apache2
 
 ![image](https://github.com/user-attachments/assets/42c99f60-478e-4fe3-912a-f73a1bd5f3fc)
 
-sudo apt update
-sudo dpkg -i zabbix-release_6.0-4+debian11_all.deb
-sudo apt update
-apt install zabbix-agent
-systemctl restart zabbix-agent
-systemctl enable zabbix-agent
-sudo nano /etc/zabbix/zabbix_agentd.conf
-systemctl restart zabbix-agent
+1.sudo apt update
+2.sudo dpkg -i zabbix-release_6.0-4+debian11_all.deb
+3.sudo apt update
+4.apt install zabbix-agent
+5.systemctl restart zabbix-agent
+6.systemctl enable zabbix-agent
+7.sudo nano /etc/zabbix/zabbix_agentd.conf
+8.systemctl restart zabbix-agent
