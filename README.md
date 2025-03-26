@@ -46,7 +46,7 @@
 Решение 2
 
 
-![image](https://github.com/user-attachments/assets/06d5fc9b-4e20-4901-bb84-f3d9ea9cc052)
+![image](https://github.com/user-attachments/assets/238b9f00-77cd-44f2-b064-6f704d3212f0)
 
 ![image](https://github.com/user-attachments/assets/3a6623c4-9dc5-4309-93f8-268168052763)
 
