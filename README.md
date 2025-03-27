@@ -54,6 +54,8 @@
 
 ![image](https://github.com/user-attachments/assets/fd5577f9-9b0e-46a9-bb09-d32c75a78c85)
 
+![image](https://github.com/user-attachments/assets/666f2284-0f05-49af-b912-0385f2692527)
+
 
 1.sudo apt update
 2.sudo dpkg -i zabbix-release_6.0-4+debian11_all.deb
